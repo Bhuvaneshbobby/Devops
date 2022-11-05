@@ -1,5 +1,4 @@
-echo "DEPLOY STEP IS RUNNING"
-tar -xvf project1.tar.gz
+echo "Deplay step is runninng"
 cd data
 docker-compose up -d
 docker ps -a
